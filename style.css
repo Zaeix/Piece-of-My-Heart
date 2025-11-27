@@ -148,3 +148,67 @@ body {
   color: #555;
   margin-top: 5px;
 }
+/* popup */
+#entryPopup {
+  position: fixed;
+  inset: 0;
+  background: rgba(243,234,223,0.8); /* same as your theme bg */
+  backdrop-filter: blur(3px);        /* very soft, not glassy */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+}
+
+.popupContent {
+  background: #fffaf2;
+  padding: 30px 100px;
+  max-width: 280px;
+  border-radius: 50px;       /* minimal, classy */
+  border: 1px solid #e5d6c3;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(80,60,40,0.15);
+  
+  font-family: 'Gloria+Hallelujah', cursive;
+  color: #3a2f2a;
+}
+
+.popupContent p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.popupContent button {
+  margin-top: 18px;
+  padding: 8px 22px;
+  background: #d8c3a5;
+  border: none;
+  border-radius: 3px;
+  color: #2e241d;
+  font-family: 'Kalam', cursive;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.popupContent button:hover {
+  background: #cbb08f;
+}
+.popupGif {
+  width: 120px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.popupTitle {
+  font-family: 'Courgette', cursive;
+  font-size: 18px;
+  margin: 5px 0 12px;
+  color: #3a2f2a;
+}
+
+.popupMessage {
+  font-family: 'Kalam', cursive;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
