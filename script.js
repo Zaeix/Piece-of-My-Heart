@@ -24,3 +24,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+// popup
+function startSite() {
+  document.getElementById("entryPopup").style.display = "none";
+
+  const music = document.getElementById("bgMusic");
+  music.play();
+}
